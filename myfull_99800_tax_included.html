@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>睡眠改善講座「マイフル」— ご購入手続き</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Noto Sans JP',sans-serif;background:#f0f0f0;color:#333;font-size:14px;line-height:1.7}
+a{text-decoration:none;color:#333}
+
+/* HEADER */
+header{background:#fff;border-bottom:1px solid #ddd;padding:16px 0;text-align:center}
+.logo-text{font-size:22px;font-weight:700;letter-spacing:.08em;color:#1a2e44}
+.logo-sub{font-size:10px;color:#aaa;letter-spacing:.2em;margin-top:2px}
+
+/* LAYOUT */
+.wrap{max-width:960px;margin:0 auto;padding:36px 20px 60px;display:flex;gap:24px;align-items:flex-start}
+.main{flex:1;min-width:0}
+.side{width:270px;flex-shrink:0;position:sticky;top:20px}
+
+/* HEADINGS */
+h2{font-size:20px;font-weight:700;margin-bottom:10px}
+.intro{font-size:13px;color:#555;line-height:1.85;margin-bottom:22px}
+
+/* BOX */
+.box{background:#fff;border:1px solid #ccc;border-radius:2px;margin-bottom:20px}
+.box-ttl{font-size:14px;font-weight:700;padding:11px 16px;border-bottom:1px solid #ddd;background:#fff}
+
+/* PRODUCT ROW */
+.product-row{display:flex;gap:14px;align-items:flex-start;padding:16px}
+.product-img{width:110px;height:80px;flex-shrink:0;background:linear-gradient(135deg,#1a2e44,#1d7a62);border-radius:2px;display:flex;align-items:center;justify-content:center;font-size:18px;font-weight:700;color:rgba(255,255,255,.9);letter-spacing:.05em}
+.product-name{font-weight:700;font-size:15px;margin-bottom:4px}
+.product-price{font-size:15px;color:#c0392b;font-weight:700;margin-bottom:4px}
+.product-copy{font-size:12px;color:#666;line-height:1.65}
+
+/* DETAIL ITEMS */
+.detail-item{padding:16px 16px;border-bottom:1px solid #e8e8e8}
+.detail-item:last-child{border-bottom:none}
+.detail-name{font-size:14px;font-weight:700;color:#333;margin-bottom:6px}
+.detail-tag{display:inline-block;font-size:10px;font-weight:700;padding:2px 7px;border-radius:2px;margin-bottom:5px;letter-spacing:.06em}
+.tg{background:#1d7a62;color:#fff}
+.tb{background:#1d7a62;color:#fff}
+.detail-desc{font-size:13px;color:#555;line-height:1.8}
+.period{padding:13px 16px;font-weight:700;font-size:14px;color:#333}
+
+/* ACCORDION */
+.acc-item{}
+.acc-hd{display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:#fafafa;border-bottom:1px solid #e8e8e8;cursor:pointer;user-select:none}
+.acc-hd:hover{background:#f3f3f3}
+.acc-left{display:flex;align-items:center;gap:10px}
+.ch-badge{width:34px;height:26px;background:#1a2e44;color:#e8c87a;font-size:10px;font-weight:700;display:flex;align-items:center;justify-content:center;border-radius:2px;flex-shrink:0;letter-spacing:.02em}
+.acc-ttl{font-size:13px;font-weight:700;color:#333}
+.acc-st{font-size:11px;color:#999;margin-top:1px}
+.acc-arr{font-size:11px;color:#aaa;transition:transform .25s}
+.acc-item.open .acc-arr{transform:rotate(180deg)}
+.acc-bd{max-height:0;overflow:hidden;transition:max-height .35s ease}
+.acc-item.open .acc-bd{max-height:2800px}
+.acc-in{padding:14px 16px;background:#fff;border-bottom:1px solid #e8e8e8}
+.sec-ttl{font-size:11px;font-weight:700;color:#1d7a62;letter-spacing:.12em;text-transform:uppercase;margin-bottom:8px;padding-bottom:5px;border-bottom:1px solid #eee}
+.sec-ttl+ul{margin-bottom:14px}
+ul.tl{list-style:none;display:flex;flex-direction:column;gap:5px}
+ul.tl li{font-size:12px;color:#555;padding-left:13px;position:relative;line-height:1.65}
+ul.tl li::before{content:'・';position:absolute;left:0;color:#c9a05a;font-weight:700}
+
+/* PAYMENT */
+.pay-in{padding:14px 16px}
+.pay-ttl{font-size:13px;font-weight:700;color:#333;margin:10px 0 8px}
+.pay-ttl:first-child{margin-top:0}
+.card-row{display:flex;gap:5px;flex-wrap:wrap;margin-bottom:10px}
+.card{height:24px;padding:2px 8px;border:1px solid #bbb;border-radius:2px;font-size:10px;font-weight:700;color:#555;display:flex;align-items:center}
+hr.ph{border:none;border-top:1px solid #ddd;margin:10px 0}
+
+/* SECURITY */
+.sec-sec{margin-bottom:20px}
+.sec-h{font-size:18px;font-weight:700;margin-bottom:10px}
+.sec-p{font-size:12px;color:#555;line-height:1.9;margin-bottom:12px}
+.ssl{display:inline-flex;align-items:center;gap:8px;border:1px solid #ccc;border-radius:3px;padding:7px 14px;background:#fff;font-size:11px;font-weight:700;color:#555}
+
+/* SIDE */
+.side-box{background:#fff;border:1px solid #ccc;border-radius:2px}
+.side-ttl{font-size:14px;font-weight:700;padding:11px 14px;border-bottom:1px solid #ddd}
+.side-body{padding:12px 14px}
+.side-row{display:flex;justify-content:space-between;align-items:center;padding:7px 0;border-bottom:1px solid #eee;font-size:13px}
+.side-row:last-of-type{border-bottom:none;margin-bottom:4px}
+.s-price{color:#c0392b;font-weight:700;font-size:14px}
+.btn-cr{display:flex;align-items:center;justify-content:center;gap:6px;width:100%;padding:13px;background:#1d9e82;color:#fff;font-size:14px;font-weight:700;border:none;border-radius:3px;cursor:pointer;margin-top:10px;text-decoration:none;letter-spacing:.03em}
+.btn-bk{display:flex;align-items:center;justify-content:center;gap:6px;width:100%;padding:13px;background:#e8850a;color:#fff;font-size:14px;font-weight:700;border:none;border-radius:3px;cursor:pointer;margin-top:8px;text-decoration:none;letter-spacing:.03em}
+.btn-cr:hover,.btn-bk:hover{opacity:.88}
+.s-or{text-align:center;font-size:12px;color:#aaa;padding:7px 0}
+.s-note{font-size:11px;color:#666;line-height:1.7;margin-top:10px}
+.s-caut{font-size:11px;color:#999;margin-top:7px;line-height:1.6}
+
+/* FOOTER */
+footer{background:#1a2e44;padding:18px;text-align:center}
+.ft-links{display:flex;gap:16px;justify-content:center;margin-bottom:8px}
+.ft-links a{font-size:12px;color:rgba(255,255,255,.5);text-decoration:underline}
+footer p{font-size:11px;color:rgba(255,255,255,.3)}
+
+@media(max-width:680px){
+  .wrap{flex-direction:column}
+  .side{width:100%;position:static}
+  .detail-img{width:90px;height:64px}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo-text">マイフル</div>
+  <div class="logo-sub">SLEEP × MINDFULNESS PROGRAM</div>
+</header>
+
+<div class="wrap">
+
+  <!-- ── MAIN ── -->
+  <div class="main">
+
+    <h2>ご購入手続きに進む</h2>
+    <p class="intro">注文する商品をご確認いただき、ご希望の決済方法のボタンを押して次にお進みください。</p>
+
+    <!-- 注文する商品 -->
+    <div class="box">
+      <div class="box-ttl">注文する商品</div>
+      <div class="product-row">
+        <div class="product-img" style="background:#fff;padding:4px"><img src="data:image/png;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wAARCAIAAgADASIAAhEBAxEB/8QAHQABAQEAAgMBAQAAAAAAAAAAAAIBBwgDBQYECf/EAEkQAAIBAwIDBQQFCAgFAwUAAAABAgMEEQUGByFhEjFBUXEIEyKBFDJCkaEVI1JicoKxwRYkM0NTkqKyNHPR0uEY0/AXVWOjwv/EABsBAQACAwEBAAAAAAAAAAAAAAABBgQFBwMC/8QANBEAAQQBAQQIBgIDAQEBAAAAAAECAxEEBRIhMUEGEyJRcYGh0RQyYbHB4ZHwIzNCQ/FS/9oADAMBAAIRAxEAPwDuTlmtswAG5ZmWAAbljLMAAyzcswAG5YyzAAMsZYAAyzcswAG5YyYADcszLAAGWMsAA3IyzAAbkzLAANyzMsAAZYywADcsZZgANyxlmAA3JmWAAMs3LMAAyzcswAG5Yy/MwAG5YyzAAbljLMABuWZlgADLGWAAbljJgANyxlmAA3LGWYADcsZZgANyxlmAA3PUZZgANyxlmAA3LGWYAAAAAAAADDQAAAAAAAAOQAAAAAQAAAAAAAAAAAAAAAAADAAAfIztRx9ZAGg8NS5t6azOtCC/Wlg8E9X0qm/j1Oyh+1Xiv5ko1VItD9oPxQ1fSan9nqdlP9mvF/zP0U7m2qLNOvTn+zJMK1UFoeUGdqOM9pYN5Pu5kEgAAAAAAAAADqAAAPEAAAAAAAAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADxGD1+u65o+hWbvNZ1O00+3X95cVowj6c3zfQlEVy0hCrXE9gOpwJvb2oNnaVKrb7dsrvXa8eUan9hQb/aku016R+ZwhvH2h+JG4ITo22oUdEt5fY0+n2Z48veSzL7mjaQaNlS71TZT6+3ExZM2JnOzu1ret6Podk7zWdTs9Pt1/eXNaNOL+cmjjXdHtD8MdFg1R1etq9dd1OwoSn/AKpdmH+o6OanqWo6pcu61K9ub2u/7y4qyqS++TbPy88m2h6PxJ/scq+G73MR+oOX5Uo7T697WlFU5R0PZ9WU/s1L27UUvWEE/wDccf6p7TXE67nJ29XSNPg+5ULPtNfOpKX8DhjHQY6Gxj0vEj4MTz3/AHMd2VK7i4+61njFxN1btK63nqlOL7421RW6/wD1qJ8xebj3FeNu81/VrnPf769qTz98j1uOgwZbIY2fK1E8jxWRy8VKncV6nOpWnN/rPJ428lYGOh6UfNkrK7uRdOtWpvNOrOD6PBiWRgihZ7G13Br9rj6JrmqW+O73N5Uhj7mj6XRuLfErSWnab01iUV9m5r+/X3VO0fE4DPh0Mb/mai+R9I9ycFOZtL9pjidZyj9Ir6TqEV3q4s+y386biff6D7WtL3cY69s+pGf2qlldKSfpCaX+46tY6GdkxJNLxJOLE8t32PZuVK3md79re0Lww1ynH3us1NJrvvpahQlTw/21mH+o5L0jVtL1iyje6TqNpfW0u6rb1o1I/fFtH8xeyz9ek6nqmkXSutK1C7sK6/vLatKnL74tM103R+Nf9blTx3mQzUHJ8yH9PAdGdm+0bxH0BQo313b69bR+zfU/zmP+ZHD+cu0c5bF9prZOtypW+vULrb9zPk5VfztDP7cVleril1NRPo+VDvraT6e3EzI8yJ/OjnQH49I1XTdYso3ulX9rfW0/q1berGpB/NPB+w1ioqLSmVdgAEAAAAAAAAAAAAAeAAAA8QAAAAAAAAAAAAAAAAAAAAPEAAAAAAGAGgAAAAAAHqd1bk0Pa2k1NV1/UrewtKfJzqyx2n4Riu+T6LLJa1XLSJakKqIlqe2PmN+b+2nsiy+k7i1ihat/2dBPt1qn7MF8T9cY82dcOK/tM6nqDrabsSg9Otc9n8oV4p15rzhB5UF1eX6HXnVL++1S/rX+pXle8u60u1VrV6jnOb823zZv8PQXv7U60ndz/Rr5tQa3czedg+I/tRa1fyuLLZWnQ0y2fwwvbpKpXa81DnCPz7XyOBNw69rO4tQeoa5ql3qN1jCq3FVzaXks9y6LkeuSNwWTHw4cdKjbX3NZJM+T5lMGCsDBkHnZmBg3HIAWYDRgULMGDcACzMDBqQAszANGADAbhgULMCNGBQsYMaN5jDAsnBmC8DAFntNr7m3Dte9d7t7WLzTa8sdqVCo0p/tR7pejTOwfDj2pbyjUo2W+tLjcUuz2ZX9jHs1E/OVJvD6uLXozrRgzBi5OFDkp/kb58z1infF8qn9Jtmbw23vDTY6ht3V7a+pNZlGEsTp9JweJRfqke+P5laBrOraBqlLU9G1C5sLyl9StQqOMl5rl3p+KfJnZLhN7TjXudL4gW+V9VanbU/udSmv4x/ylbzNDki7UK7Sd3P8AZs4c9jtz9x2jB+LRNW0zW9Mo6lpF9b31nXj2qdahNTjJeq/h4H7TRKiotKbDiPEAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAdQAAAAAAAAAAAAfj1rVNP0bTK+pareUbOzoR7dWtWl2YxXqdReOPtB6luV19D2fOtpujvMKl19WvcrPh404PyXN+OO4zcLAly3UxN3NTwnyGQpbuJy1xn9oHQdn+/wBI277rWtbj2oT7Ms29tJcvjkvrNP7MfLm0dRt67t3DvHV5apuLU617XfKEZPEKS/RhFcor0+Z6N83lmpFzw9PhxE7KWvfzNHPkvmXfw7icDBYM48LIwbg00gWTgYNHgSRZmDMFI0gmycDBRooWRgY6FGEizMIzBQwQLMwDQSRZmEMI3AAsYMwaaBZOBgoAWZgYKWA+8CyMDBQAsnBjRYIJs+m4d7/3RsLUvpu3tRlSjJ/nrap8dCsv1oefVYa8zuLwc427a3/CnYVpR0nXXydlWnlVnjLdKX2l38uUljua5nRMqlOdKrGrSnKFSElKMovDi1zTT8Ga/N0yHLS13O7/AO8TJgy3wru3of0+7wdVOBvtFVrN2+39/wBade3+GnQ1V5c6fhit4yX6/f55712mtLmheWtK6ta9OvQqxU6dSnJSjKLWU01yaKbl4UuI/ZkTz5KbuGdkzbaeUAGIewAAAAAAAAAAAAAAAAAAAAAAAABhoAAAAAAAAAAPnt/7y0HY+36us6/dqjRi+zTpxXaqVp+EYR8X+C720uZ6/itxB0Ph5t2Wp6pU95cVE42lpB/nK88dy8kuWZdy9cJ9GeI+99d37uKesa5cdtrMbehD+zt4Zz2IL+L734m30zS3Za7btzPv4GFl5iQpSfMe44w8Vdw8RtUbu5ys9JpSzbafTnmEPKU3y7c+vh4JHH7RSRuC6RQsiYjGJSIaF8jnrtOW1IS6G/IrAwelHzZOBgrAFCycMzBYwQLJwZjoVgJAWSkzcFYNJoWRjobg3BqQoWTgzB5MGdkULIwMF4MwKFkY6G46G4NwKFk46G4KwEgLJwOyXgYFCzx9kdlnkwY0KFk46GYLaMwBZOB2SkaKFkY6DBeBgULIwbjoXgzAoWRg5X4GcZNY4fXlPTr11dQ27UmveWzeZ0MvnOll8nzy4vk+j5nFiQa8jymgjnYrJEtFPuOR0btpqn9Jtrbg0jc+iW+s6HfUryyrx7UJwfc/GMl3qS7mnzR7Q/n5wh4la7w51z6Xp83cafWa+mWM5NQrLzX6M14S+TyuR3k2Hu3RN67doa5odyq1CpynB8p0prvhNeEl/wCVlNFJ1LTH4brTe1ef4U3+LltnSuCnvwAasywAgAAAAAAAAAAAAAAAAB8gAAAAAAAAAAAfIcVt/wCj8Pds1NW1OXvK88wtLWMsTuKn6K8ku9vwXXCfst+bq0nZm2brX9Zrdi3oR+GMfr1Zv6sIrxk//PcmdC+J29tY37uivrerT7KfwW1vFvsW9PPKMf5vxfM2+laYuW/ad8iev0MHMy0gbSfMp+Pfu7ta3tuOvrmuXHva9T4acFyhRh4QgvBL8e98z0KRSRuC8MYjGo1qUiFfVyuW1JwaaCaIskYKAoWTgYKwME0LIBbROCKFmG4NSGALMwMGmgWZgG4NFCyQaYSLBhSGBQskYKwMChZKNNwBQsGYNwAQDGUYQTZIwVgYAsnAKwMChZJpuDcAWTyBWDGSLMHgbgChZLPseE3EHWeHm5Ianps3VtajUbyzlJ9ivDP4SXPEvDqm0/kMGYPiSNsjVY9LRT6a9WLtN4n9Hdj7q0feW27bXtEuVWtq65xbXbpT8YTS7pLxXz7mme8OgvBTiVqXDnciuabqXGk3MlG/tE/rx/Tj5Tj4efc+nezQNX07XtGtdX0m6p3VldU1UpVYPk0/4PwafNPkUTU9Odhv3b2rwX8FixMpJ2/VD9wANYZYAAAAAAAAAAAAAAAH3gAAAAAAAA8GoXdtYWNe+vK8KFtQpupVqTeIwilltvywec6qe1xxO+n3c9g6JXTtbeaeqVI5/OVE8qlnyi8N/rYX2XnMwcN2XMkbfNe5DwyZ2wMVynHPHniZd8Rd0OdB1KOiWTcLChJYcvOrJfpS/BYXnnjk1I1J+R0GGFkLEjYlIhV3yOkcrnLvJwMF46DHQ9T4sgFYGATZIwykhjmBZJpuDUgRZJjReA0CbIwwVgY5ECyQbgYJFmBGtDHQCwzMG8zHkgAA1IAw01DBIsnBuDRgEEhFYMwCQ8mG8zX3AEm4NSBAswGjHiSCTTQ0BZgwzUCATgGtMYAGDMFBkgjHM5n9mfitPZmuR2/rVw/6P39RLtTlytKr5Ka8ovkpeXf4PPDWAuR4ZGOzIjWN6blPSKV0T0c3if01hKM4KcWpRaymu5o069+yZxQnrNgtj67c9q/s6edPrVJ869Fd9Pn3ygu7zj+ydhDnuXivxZVjfy9SzwTNmYj2gAGMewAAAAAAAAAAAAAAAAAAAPBf3dtp9jXvb2vChb29OVSrUm8RhFLLbfkkSiXuQHHntC8Q4bB2VOVpUj+WdQ7VCxjlZg8fFVx5RTXzcUdGK051qs6tWc6lScnKcpNtyb5ttvvZ9hxj3tc793zd61Uco2kX7mypP+7oxfw/N85Pq+h8ekX/AErBTEhRF+ZePt5FXzcnr5LTgnAnBuDUbg2Zh2TgYKwMAWTgzBWEALJwMFBAWTgFDAFkoFYGALJaMKBAsnBuAaSLJaBQwQLJaGCsDAFkYNwVgYJoWYDTALMwEjcGgWSkbg0ECycDBQJFmIYNNIFkYNwUMAWRgF4GCRZODC8DBAsjAwWALISNwVgYFCyHEYLwYKFn6tE1O+0XVrXVtNryt7y0qxq0ai+zJPK9fTxO/fCTe1lv3ZVprlr2YV8e6u6C76NZfWj6dzXRo/n1g5Q9m/f/APQffMKV7WlHR9TcaF2nL4acs/BVx0bw+jfkjUaxgfFQ7TU7TeHsZ2BldTJS8FO8QCeVlAohZgAAAAAAAAAAAAAAAAAAde/bD35+TtFobI0257N1qCVW/wCz3xoJ/DHPh2pL7ovwZzxrmpWejaPeatqFaNG1tKMq1ab+zGKy/wCB/Pbfm473du7dR3BfSbq3dZyjF/3cO6EF0jFJfI3ug4XXTda7g378vc1mp5HVx7CcV+x6JFI1I3BdiuWSaaEBZjBRmALM5Bo3AAsnBuDcMYAsnAKwMAWSgysDAFkjwNGALJNwbg3AFk4BWAKFkjBWABZOAUMAWRgJFYCAszAwUALINwbgYAszAwVgAWThG4NYAszAwaADMA0AWZgYKQAsnAwaALMGDRgCzMGYLwZgCyTGsosNAHdD2Wt9Pdew46Ve1M6noqjb1HKWXVpY/Nz+5OL6xz4nLx0F4J7xnsfiFp+rtv6HUl9HvY576M2lJ/uvEv3TvxCcakIzhJSjJZTT5NFE1rD+HyNpvyu3+5ZtOyOuipeKFAA05sAAAAAAAAAAAAAAZOUYQc5NKKWW2wDgL2x93y07bNntG0qJVtTl766x3qhB8l+9PH+RnU9I+z40boW8OJGraxTqOdr733Fpn/Bh8MWvXnL95nx6R0XTMX4bGaxePFfFf7RUM2frpldy4IYkbg3AwZ5i2TgYKwbgCyMeZuCsBoCyBgodkCyQVgYAsnBiRYxzFCzMGYLwZgCycMYKwMAWTgYKwMcyBZOAVgzAFmYGDcDBIszAwbgYAszBmCmhgCycDBWABZmDMFYGALMwY0XgzAFmYGDceAwBZOBz8i8DAFkpMG4GATZhrRoBFktBIrAwBZhmCsDAFmYGDcBd4FmYDRuBgCyGjur7LW7/AOk3DShY3NZzv9HatKvaeW6aX5uX+X4fWDOljRyv7LG6am3uKFtYVaqjZaxH6JUTfL3nfTfr2vh/fNXrOL8Riuri3en59DN06fqp0vgu47qAA5+WwAAAAAAAAAAAAHH/ALQm5Z7Y4VatdUJqF1dw+hW7z3SqZTa6qPafyOQEdXfbQ16VfXdG21Sr5p21CV3Wgn9ub7MM9VGMv85sdKx/iMpjV4cV8jDz5upgc7nw/k68KODcFYNwdEKdZODUisDAFk4GCsDAFkNBorAwBZOAy8GYAsnAwVgYBNkYGC8DAFkpBorAYIsnAwajcEE2TgzBeBgkWQMF9kYAsjBuCkjcEEWRgxrLLwMdCRZGBg8mDMAWRgJFYGATZmBgrAwCLJwGisG4As8eDcFYGALJwCsBoCyBgrBqQJsjAwXgNAiyMDBeDcEE2ePBqReBgCyMG4KwMEkWR2RgvBmALIweS2rVbW5pXNCcqdajONSnOPfGSeU16NGYMwBZ/QvYmu0Ny7O0rXaElKN5bQqSS+zPHxR+Usr5Huzgb2N9yRvtpajtqq373Ta/vqXWlVy8fKcZf5kc8nNc7H+HyHx9y+nIuuLN10LX94ABiGQGEAAAAAAAAH3HQbi/rS3FxN1/VoVXVpVLyVOjLOU6dPEI46Yin8zuzxH1ZaFsLW9X7fYlbWVWcH+v2Wo/6mkfz8jHCS5vBaujUPzyr4flfwV/XJa2I/MxIpGpG4LWV6zMBooYBFkYBWDcAmyMDBeDPkBZOA0WZgCyGhgvAwQLPHg1IvAwSLJwY0XglkCycFJBGkizMAoAWTgYLwMAWQ0CzALJSBWOgwQLJDKwMAWQMF4MwBZKNKwMEiyQVgYIFk4MwUxgkWYMFYGCBZGDcF4MwBZOBgvAwSLIwC8GYAszwMwXgzHQCyTSsDBAsnAwVg3skizx4MaPJgYAs5Q9lnX5aJxYtbSf9hq1GdnPpLHbg/vhj947nn87dv6nW0TXrDWLfLq2NzTuIrzcJKWPwP6G2dxTu7OjdUX2qdWnGcH5prKKd0kh2ZmyJzSv4/8ApZdDm2o3M7l+55QAVs3gAAAAAAAABxB7W2pSsuFUrOEmnf3tKi+sYt1H/sX3nT/B/QzcOgaLuKyVlrmmWuoW6fajCvTUlF92V4p9UcG8SPZys7iFW92TeO1rZz9BupuVJ9Iz+tH559UWjRdTx8eLqZNy3d8iv6rgTzSdazelcOZ1lSKwfv1/RtU0HVK2l6xZVrO8ovE6VSOH6p9zT8GuTPwotiKjktF3FbW2rSmYDReDGiSLIwbg3BuALJwMFYGCBZODMF4GCRtEpDBWABtENBopnJ/Bvg/q++5x1K8lPTdCjLDuHH85Xx3qmn3/ALT5Lq+R4zzxwMV8i0h6wxPmejGJanGun2V3qF3C0sbWvdXFR4hSo03OcvRLmzkPb/AriNrEI1ZaTS02lLule14wf+VZkvmjtnsvZm29oWKtdB0ujbfCo1KuO1Vq48ZTfN/w8kfQlXyekb1WoW0nepYYNDaiXK61+h1L/wDTZvZRz+UdE7Xl76p/7Z81uTgjxF0SMqj0VajRXfOxqqq1+7yl+B3ZBis6Q5TVtaXyMh2i46putD+cd1b17S6qWt1QqUK9N4nTqRcZRfk0+aIR3235sDa+9bOVLW9Npzr9ns07umuzXp+WJ/yeV0OpvFzhRrewbt3Mm7/Rqs+zRvIRw4+Uai+y+vc/DyVg0/WIctdhey7u7/A0ubpkuMm0m9vf7nHiNCXM3BuDV2ZgzBWBgCycG4NwbgDaJwgVgYIFk4Mwi8GYJFk4GCsGPPcQLMaP0abp1/qd7Cy02yuLy5n9WlQpuc38lzOVeDfBTVd5RpaxrU6umaJLnBqOK1z+wn3R/WfyT7ztNtLam3tqWCs9B0u3sqbSU5QjmdTHjKT5yfqzS5+tw4yqxnad6IbbD0qXITaduadSdv8AAfiNq0FUq6Zb6ZTksp3txGMv8se0180j3n/pt3uoZ/KOiOXl76p/7Z219AaJ3SHLVbSk8jcN0XGRN9r5nSTcXBXiLokZVZ6E7+jHvqWNVVv9P1vwOPrijWt687e4pVKNanLszpzi4yi/Jp80f0c/gfJcQOHe1t7Wk6esafBXXZxTvKSUa9PyxLxXR5Rl4vSN11O3d3p7GNkaGlXC7f3KdDUbg+94scL9d2Bf9q4X0zSqs3G3vaccJ+UZr7Eunc/B9+PhMcy0RSsmYj41tFK9LG+JyselKhmDMFhI9Tz2iMG4KwMAbROBgrAwBZmDGi8GYAslI3BSQYFkcgymj3Wzdp69u/VY6boNhUuaz5zn3U6S/SnJ8or+Phk+XOaxquctIhLUVy7LUtT0WUuZ3q4G6sta4T7evc5nG0jQn+1Tbpv/AGHwHD72ddv6bCldbruJ6xdpZlbwbp28X5cvin82k/I5n0bS9N0bT6en6TY29laU89ijQgoRWXl8l1KdrepQZTUjj3qi8eRaNJwZsdyvk3WnA/YACum8AAAAAAAAACB6ux3Dol7rF5o9rqdtV1GzaVxbKf5yGUnnsvnjDXNcj2i5n05qt3KlENcjuCnyXEzYGhb90Z2WqUfd3NNP6NeU0veUJPy808c4vk/XmdM+IGz9X2VuKro2r0sSXxUa0U+xXp55Si/4rwfI78nyPFTYum782zU0y8Uad1TzOzucc6NTHf1i+5rxXVI3Glaq7EdsP3sX0+qGq1LTW5Ldtnzp6nRTAx0PYa/pN9oWs3WkanQdC8tajp1YPwa8V5prDT8U0fhXMvSKipaFNW0WlJx0Nx0KSNwSRtENDBbXUYAsjAx6l4GALPHgzHgeRo95sLbN7u/dVloNjF+8uJ/nKmOVKmucpv0X3vC8T5e9GNVzlpEJYivcjWpvU+z9n/hdU3trD1TVYSjoFlNKr3p3NRYfu10/SfyXfldwrS3oWltStbWjCjQpQUKdOEcRhFLCSS7lg/FtjRNP23oNpoul0fdWlpTUKaby35tvxbeW35s9kc91LPdmS7X/ACnBC9YGE3Ejr/peKgH49a1Ow0fS6+p6ndUrW0t49qpVqPEYru/jhY8Trvvz2jrypcVLTZ+nUqVGMnFXl5HtSmvONNNJfvZ9EeWJgT5a1Gm7v5H3lZsOKn+RfLmdlOQR0yp8b+JMLhVXrtOcc57Ds6XZ/wBufxORdge0ZGdxRst5WFOlGcuz9OtIvsx6zp83jrF/IzptAy4m7SUvgYcWt4sjtlbTxOxB+bVbCz1TTq+n6hbU7m1uIOnVpVFmM4vvTN068tdRsaN9Y3FO5tq8FUpVaclKM4vuaaP0eJpt7V7lQ225yfQ6WcceGdxsHW1VtfeV9EvJN2tVpt033ulN+a8H4rqmccJHf/fO2tO3dtm70LVKanRuIfDL7VOa5xnHqnh/h3M6L7u0G+2xuK90LUopXNpUcJOPdNd8ZLo0016l60bUly49h69pvqnf7lN1bB+Fk22fKvp9D1LQx0NSKSN0amycdDMF46mY6gWSMFYNSAsjAweTBMlgCyGsHNHs68J47quo7m3BQ7WiUJ4oUJd13NcnlfoJ9/m+XcmfFcINk1997voaUlUhZU/zt9Wj/d0k+aT/AEpdy9c+B3e0yxtdN0630+xoQoW1vTjSpU4LCjFLCSK9reprjt6mNe0vonupvNHwEnd1sidlPVTzwhCnTjCEFGMVhRisJLyKB6zc2v6RtrSKuq63e07O0p4TnN97fdFLvbfkuZTWtV60iWqlsc5Gpa7kPZjkdYt8e0brFevKhtLTqNlbJtK4u4+8qyXmop9mPz7R8dT44cSYV/erXKc1nPYlZ0uz+EU/xN1H0fy3ttaT6Kvsah+uYrXUlr4Idzhg6/8ADv2ibW5r0bDednSs5TfZ+nWyfuk/OcHlxXVN+iRz3a3FG6tqdzb1qdajVip06kJKUZRaymmu9YNblYU2K7ZlSvsZ+NlxZLdqNbPz65pWn65pVxpWqWtO6s7iHYq0prKa/wCvjnwZ0t4z8Pbvh/uP6MnUr6XdZnZXEl3pd8JfrRyvVYfRd3z5jibs+x3ttK60W8UI1ZLt2teUcuhVS+Ga/g/NNoy9K1F2HLS/IvH3MbUsFMqO0+ZOHsdDEjcH69X0280nVrrTNQoujdWtWVKrB+Ek8P5H58F/RUVLQpC2i0pGDcFKJuCSLIwZg8mBgE2RjmMF4GALIwMFM95sTa+o7w3Na6FpkPztaWalRrMaNNfWnLovxeF4ny97WNVzlpEJYivcjWpaqe34ScOtU3/rjt7ftW2m0GneXjjlU0+6MfOT8F4d769ydm7X0XaOi09J0OyhbW8Ocn3zqSxhym++Un5/yGyds6XtHbttomk0VChRj8U2l2qs33zk13yf/juR7ooOp6m/MfSbmJwT8qXbTtPbistd7l4r+EDAPWUdwaLX16poNHU7WrqlKn72rawqKU4RylmSXd3rv8zWI1XcENirkTip7MAHySAAAAAAADGAdHeL1/dw4x7hvbO5rW1ejqElTq0puE4uKUcprmu4514D8ZFuGdHbW6K0Ias1i2usKMbr9V+CqenJ+vfwBxWeeJm5X4vU6/8AvZ81SlOnWhVpylCcJKUZReHFp5TXU6FLgRZeK1jk30lL3biiR58mLkue1d1rad+8/ol1BxpwB4hre22fo19UX5a0+MYXKxj3se6NVeuOfk/VHJZQ8iB+PIsb+KF1gnZPGkjOCnBntU7BWraKt4abQbvrCPZvIxXOpQ/Sx5x7/wBnPkjq6kf0SuKVK4oVKFeEalKpFxnGSypJ8mmvI6QcYtnVdlb5u9LjTkrGo/f2M289qjJvCz5xeYv0z4lq6PZ221cd6704eHd5Fa13D2HJO1Ny8fH9nxyQwakVhFlK7ZOBgrBuESLIx0MaZ5MGNAWePHM7VeytspaNtee6L6go32qpe4b+tC3T5enafxenZOvvC7a1beO+NP0SMJuhOfvLqUeXYox5zefDPcurR3otqFG2tqdvb040qVKChCEVhRilhJdCtdIs3YYmO3iu9fAsOgYm29Z3cE3J4nkIr1aVChUr1qkadKnFynOTwopLLbfkWcG+1ZvZ6ZodLaFhWSutRj27zsvnChnlH95rHon5lXw8V2VM2JvP7Fjy8luNEsjuRxLx14lXW+Nfla2VWdPQrObVrS7vey7nVl558E+5dWzjbBuCsHSIIGQRpGxKRCgTTvmesj13qTh9xPZ6HlwZg9Tys5W9n3idW2fq8NE1a4ctBvKmG5y5WlR/3i8ov7S+fg89u4SjOKlGSlFrKafJn87sHbD2YN8f0g2tLb2oV+3qOlRUYOXfUt+6L69n6r6dnzKr0g05K+JjTx9/csuh6gt/DvXw9jmLxOCvax2StS0OjvCxpL6Vp693dpLnOg3yl+7J/dJ+RzqeC/tLe+sa9ldUo1aFenKnUhJZUoyWGn8mV3DyXYszZW8vsb/Lx0yYXRrzP54tYCXQ+i4i7Zr7R3nqOg18yjQq5ozf26UucJfdjPVM9AkdJY9sjUc3gpz17XMcrXcUMSHZKSKSPs+bPHgYPI0ZggWRgyMXOSik233Ito5M9nDZv9Kd+0ru7oe807SsXNbtfVlUz+bh15rPpF+Z45E7YInSO4Ie0ETp5EjbxU5/4AbHjsvZFL6VRUdV1DFxeN98W18NP91P73I5GHoDms8zp5FkfxU6FDC2GNI28EPx63qdlo2k3WqajXjQtLWm6lWpLwS/+dx0p4tb/wBS39uGV5Xc6On0W42Vq3ypw83jk5vxfy7kcj+1bvp32pw2Vp1ZO1tHGrfuL+vV74wfSKeX1a8jgiMS4aFpyRRpO9O0vD6J+/sVXWtQWV/UMXspx+q/ohRNweTAwWE0Nnj7Pmc2ezdxOq6FqdHaeuXOdJu59m1qVJN/Rqr7o9ISfLHg3nxZws0EsPOWmY+Visyoljem5f7Z742S/GkSRnI/oiDjb2et7vd+yYUbytKpqmm4t7pzfxVFj4KnXKXPqmcknN8iB0Ejo38UOgwTNnjSRvBTrj7W+y1Cpbb2sqbxNxtr9Jcs/wB3P/8Al/unXhI/oHujRrTcG3r7Rb6Obe8oypTwuayuTXVPDXVHQ7cWkXeg69faNfJK4s60qNTC5PD710aw10Zcej+Z10PUu4t+36KnrmL1M3Wt4O+56/AwUjUjfmjsjHQ3BWBggWTgNFYMfMkWQ1nuO4fs67BjtDaMb6/oRjrOpxjVrtx+KlDvhT6Yzl9X0Rwf7N+ylunfEb+7p9rTdJca9VSjlVKn93D712n0jjxO4PQqnSHO4YzF+q/hPz/BZtBw7vId5flfwDG0k23hI04K9p7iNLS7N7N0a47N7dU831WEudKk+6Ca7pS8fKPqV3DxX5UqRM5+iG+y8lmNEsj+XqfP8c+Nde6q3G29nXTo20c07nUKUsSqPxjTf2V3/Eub8MLm/nvZPry/+q9T3knKVbT63abeW32oSy/uOI1E5U9lp44uW3Wzrr/SXbIwosXAkjjTkvmU+DMlyc1j3rzTyO3wAKAXkAAAAAABgAHRTitDHEvcif8A9zr/AO9nzSWD6/jNRdHiruSHdm+nL/MlL+Z8mkdPxluFi/RPsc1yN0z0+q/c9/w43Rd7N3dZ67a9qUaUuzcUlLHvaT+tH+a6pHeXSr611TTbbUbKqqttc0o1aU19qMllP8T+fbR2Q9lDefv7Ovsu9qLt26lcWLcucoN/HD5N9pdG/I0fSDB6yJJ2pvbx8P0bnQc7q5Oodwdw8f2c+nF3tHbI/pXsqV9ZW6nqmlZr0WvrTp4/OQXnlJNLzil4nKIeGsNZRUsed2PK2RnFC15EDZ41jdwU/nhjBqOTvaF2HPaW7pX1lRUdI1OUqtDsrEaVTvlT6ea6PozjLGDpWPOzIjSRnBTnWRC+CRY38UARoPU8bMZDPJg+w4QbKrb33jb6c6c/yfRarX9SLx2aSfdnzl3L1b8D4llZExXvXch9xRulejGJvU529ljZv5H2pU3Le0JQvtVS9121zjbp/Dj9p/F6dk5mPHbUaVvb07ehTjTpUoKEIxWFGKWEkeQ5rl5LsmZ0ruZ0bFx240LY28j82qX1tpmmXWo3lRUre2pSq1ZvujGKy3+B0S31uC63XuzUNeu+U7qq5QhnlTguUI/KKSOwXtY7v+g6JbbRtJfn7/Fe6af1aMX8Mf3pL7oPzOsqTLX0ew+riWd3F3Dw/ZV9fzNuVIW8G8fH9EpG4LwMFjK/ZODGi8GYIFkNH0vDLdFbZ29LDXKcpe5pz7FzBc+3RlymsenNdUj53BnZ5nzIxsjVY7gp9MkdG5Ht4of0Js7iheWlG7tqsatCtBVKc4vKlFrKa9UeU4b9lreH5X2nU23eVYu80rCopv4p0G/h/wAr+H07JzIc1y8Z2NM6J3I6NiZDcmFsreZwd7V2zfyloFvuyxoRdzpy93dNfWlQk+T69mT+6Un4HWBLB/Qm/tLe/sa9leUYVre4pyp1ac1lSi1hp+qZ0g4n7Putl7xu9HrJzoZ97aVf8Si2+y/Vc0+qZaOj2btxrjuXenDw/RWdfw9h6Tt4Lx8f2fLpGju5BFlK5ZpLNZneBZkYynJRinKTeEkubO6nA7Zy2bsS1ta9F09Suv6xfZ71Ukvq/urC9U/M4H9mvYctx7qjuC/odrStLmpLtd1WuucY9VHlJ/JeJ2zKj0iztpUx2rw3r+ELX0fw6Rch3Pcn5UHzXE3dNvs7Zd/rdVwdWnDsW1Ob/tKsuUY/fzfRM+lOqntS7x/Le7Ke3LKtGdjpOfeOLypXDXxZ/ZXw+rkajS8P4vIRi8E3r4fs22p5nwuOr04ruTxOH764uL69r3t3VlWuK9SVSrOXfKUnlv72eNIpI3B0VKTcc+tV3qYZgrAwBZODGXgzAFn3PAzdr2fv+0uq9VwsLtq2vPLsSfKT/Zlh+mTuompJSTTTP55czuJ7PG8f6VbCo0bquqmpaZi2uM/WlFL4Jv1isZ84sq3SPDtEyG+C/j2/gs/R7M3rju8U/P8AfE5JOuPtb7PdO4tN52dKPYqJW19hc+1/dzfyzH5ROxx63c2jWW4dAvdF1Cmqltd0nTmms4z3NdU8NdUiv6flriTtk5c/A32fiplQLHz5eJ0CijcHuN5bfvdrblvdC1GK9/a1OyppNRqR74zXRrDPUI6Q1zXtRzVtFOduRzFVrtyoMDBSMJPmzMG0KFa4uKdC3pzq1qklCEILLlJvCSXm2Y0c5ey1sOd/q73lqVCSs7OTjYqS5VK3c5+kf4voYuZksxYVldy+5lYmO7JlSNvP7HNvCLaNPZex7PSMqV1Je/vJ/pVpJdr5LCiukUfXAHN5ZXSvV7uKnRIo2xMRjeCHoOIG5rPaO077Xbx5jQhilTXfUqPlCHzePRZfgdHNa1K91nV7rVtRrOtd3VV1as34t/wXgl4JHLXtRb1etbnjtmxrSdjpUn79J/DUuGufr2U+z6uRw0kXbQsH4eDrHJ2nfbl7lM1vO6+bq2r2W/fn7GYOUfZcjni3bPytK7/0nGGDlv2UaKnxQnV/wtPqv75QX8zO1JaxJPBTC07flx+KHbEAHNzogAAAAAAAAB039o+z+i8YNYajiNeNGsuuaUU/xTOPUjmP2s7P3PEOzuuzyuNPhz83Gc1/Bo4dwdI01+3iRr9E9NxzjUW7GXIn1X13mYP37c1e90DXbLWdOmoXVpVVSm33PHen0ayn0Z+HAwZqtRyUvAw0erVRU4nfHZu4LHdG2rPW9PmpUbmmpOOcunLulB9U8r5HuDqX7PPEL+iWvPR9TrY0bUJpSk3yt6vcp9Ivkn8n4HbSMlKKkmmnzTRzvU8F2HMrf+V4f36HQtMzm5kKO/6Tiem3ptvTN2bdudF1Wk50KyzGUfrU5r6s4vwa/wDHczpjxC2XrWytcnpuqUG6TbdvdRT93Xj5xfn5rvX3N95z1+v6NpWvadPTtYsaF7bT76dWOefmn3p9VzPXTNVfhLsrvavL8oeep6WzNTaTc5OfudBMYMfU7Oa57Oe37itKrpGt31gpPKp1YKvGPRPMX97Z+fSPZv0qnVU9V3Jd3UF9ihbxo5+bci0Jr2Fs3teVKVddCzUdWz52hwDtXbur7n1ijpWi2k7m5qtZxyjCOecpPwivM7k8LNkafsXbVPTbXs1rqpipeXPZw6tTH4RXcl4erZ7LaG1NA2npysdB0+la03jtyXOdR+cpPnJ+p7sreqau7M7DEpn38SyaXpLcPtvW3/bwB+DcGq2eh6Jd6vqFVU7W0pOrUk34LwXV8kl4to/edYPaZ4hx1rUf6J6PXU9Ps6mbupHurVl9lPxjH+PojD07CdmTIxOHPwMvUM1uHCr148vE4q3rr93undF/r16uzVuqrkodrKpwXKMF0SSR6hI3GTcHRmtaxqNbwQ5257nuVzuKmYGDcGpH0fNk4GCsBkCycGJFYNwSLPoOG25rnaG8rHXLf4oU59i4h/iUZcpx9cc11SO8GnXtrqOn0L+yrQr21xTjUpVIPKlFrKaP5/dxz77L/EFUKq2Vq9d+7qSctNqSfKMnzlSz1711yvFFe1/T1mj69ib28fD9Fg0HUEhk6h67ncPH9nYxHxPGDYVnvvbbtHKFDUbfM7K4a5Ql4xl49l+PyfgfbehneU6GZ8L0kYtKhcJomTMVj0tFOgOuaNqmhatX0rV7OraXdB4nCa+5p9zT8GuTPx9DvXvTZu3d3WH0XXNOp12linWj8NWn+zJc16d3mjiTU/Zt02pWctN3PdW8M/Ur20arXzTj/AuWL0hx3tTruyv8oU7K6P5DHf4e0n8KdbvHDPq+G2w9a3vrkLPT6UqVnCS+lXko/BRj/OT8I/wXM5z0L2dNuW9WFTWNXvdRUXl0qcVQhLo8Ny+5o5h0TStN0XTqenaXZULO1pr4KVKHZS69X1fM8s3pDE1qtx969/JD0wuj8rnI7I3J3c1PBtTQdN21oNrouk0FStbeHZj+lJ+MpPxbfNs9oDxXdxQtLWrc3NWFKjSg51JzeIxilltvyKg5znutd6qW9rWsbSbkQ+T4v7xpbL2XdaiqlP6dVXubKnLn2qrXJ48VHnJ+nU6T16lSvcVK9acp1KknOcpPLlJvLb6n3PGvfFXe+7J3FGc46Xa5pWVN8vhzzm15yfP0SXgfDY5F+0fA+Eg7XzO3r7FC1fP+Ln7Pyt3J7mJG4RuAbY1NmNGYKGALJwZgsYAsjB91wR3lLZm+Le6r1VDTLvFvfZWUoN8p+sXh+mV4nxDRjT7kec0TZo1jfwU9YZnQyJIzih/QenOFSnGpTkpQksqSeU15leBwh7MvEKOpaVDZ+rXDd/aQ/qdScudaivsdXH/b6M5vObZmK/FlWJ/L1Q6PiZTMqJJGc/Q4046cNKW+9Hjd2PYpa5Zxf0epJ4VWPe6cv5PwfRs6janYXelX9aw1C3q213Rl2alKpHsyi+qP6CfxPlN98Ptr7zopa3p8ZXEVindUn2K0P3l3ro8robXStZXFTqpUtvqhq9U0ZMpesiWneinR9ZwDsdqPs22VSvmw3TcUaWfqVrSM2l6qUf4HuNuez1tSwuKdfV7681ZwefdPFGlL1Uct/wCY37tewkbaOVfpSlfboWarqVtfW0OFOEPDfU99avCUqdS30ajP+s3eOTxjNOHnJ/cu9+CfcXR9OstI0u203TreFvaW1NU6VOCwoxS/+c/EvT7O00+ypWVjbUra2pR7NOlSgoxivJJckfoKpqWpSZr9+5qcELXp2mswmbt7l4qD4njPvSnsnZdxfU5L8oXGaFlD/wDI19b0iub+S8T67Ur6002wr399Xp29tQg6lWpN4UYrvbOl3F7e1zvndtTUH2qdhQzSsqL+zTz9Zr9KXe/kvA9dH09cua3J2W8fY8tX1BMSGmr2l4e58fUnUrVp1a1SdSpOTlOc3mUm+9t+LMwUkbgv5QbIwc1+yHbupvXVrjHKjYKOf2qkf+1nCzR2J9jvT+zZbh1Rr+0q0aEX+ypSf+5Gr1l+xhPXwT1Q2ejN281if3gc/gA56dCAAAAAAAAAOA/a/wBN7djoGrxj/Z1atvN/tKMo/wCyR11SO3HtM6ZPUOFd3Wpx7U7GvSuMdO12ZfhNv5HUlF70CTbw0TuVU/P5KF0gj2MxV70Rfx+CcDBZuDdGks8aRz3wD4uU7KlQ2rum47NvHFOxvZvlTXcqc34Lyl4dz5Ya4HwZzMbLw48uNY5E/RlYmbJiSJJGv7P6BxlGUVKLTTWU14mnUfhhxg17aNOnp17F6ppMEowo1JYqUV+pLy/VfLywdgtp8U9lbkVOFtrFG1uZr/hrtqlPPks8pfJso+bpGRiqu6296f3cXnC1jGyk407uX+7z7YEwqQmswmpJ+KZspRisykkjVm1s0Hyu6eIezttxktS1y29/FZ+j0Ze9qv8AdjnHzwcCcTON+sbgo1NO2/Tq6RYTzGdTtf1irHyyvqL059TZYelZGUvZbSd68P2a3M1bGxE7TrXuTj+j7Pj1xco6db3G2Nr3UamoTTp3d3SllW68Ywaf1/Bv7Pr3daEjyNZefM3BeMHBjw49hnmveUXNz5MyTbf5J3EYNSKwaZZh2TgFDAFk4MwXgNAWQkjcG4AG0S0bTnOlUjVpylCcGpRknhpruafmbgYJFnaXgVxYobmtaOg6/XjR1unHs06kmlG7SXev1/NePevFLl/5n8/KcpU5qcJOMovKcXhp+ZzVw2476jpdOnp+7KNTUraLxG7p49/BfrJ8p+vJ+pU9T0FyuWTGTy9vYtmma+1GpFkr5+/udmQfN7Z31tLckF+SNds61RrLoyqdiqv3JYf4H0cWmsp5Kw+N8a7L0pfqWmORkibTFtPoaCKtWlSg51akIRXNyk8JHwe8OLuy9u06kPylDUruHJW9k1UefJy+qvm89D7hx5ZnbMbVVT4myIoG7UjkRD7yvVpUKM61epClTgnKc5SSUUu9tvuR1f498Vv6Synt3b1aS0eEv6xXXJ3Uk+5fqL8X07/nuJnFPcG9XK1lJWGlZWLOjL6+O5zl3y9OS6eJ8Bgt2laJ1CpLPvdyTu/ZT9V13r0WKDc3mvf+jx/IYLaMwWIrtmYBSQIFmJBopACyMGpFYNwBZGDGjyYBIsrTru506+o31lXnQuaE1UpVYPEoSXc0dtuDHFKx3rYRsL+dO112jD87RziNdL7cP5x8PTmdRWjy2devaXVK6tqs6NelNTp1ISalGSeU013M1+o6dHmx07c5OC/3kbDT9SkwpLbvavFP7zO/+AddeHnH6rbU6Wn7wtp3EF8Kv7eK7ePOcO5+sfuZzZtveG2NxUlPR9bs7qXe6aqJVI+sHiS+4o+Vp2Rir227u9OBecTUsfKS2O39y8T3wMTT55PHcXFvb03Ur16dKEVmUpyUUvmzCpVM60Q8p4b67trG0q3d5XpW9vSi51KtSSjGKXi2+44+3lxm2ZoFGpC2vlq95HlGjZtSjnrP6qXzb6HXjiTxK3Dves6d3V+i6dGXap2VGT7HLucn9t9Xy8kjb4Oi5GStuTZb3r+ENPna3j4yKjV2ndyflT33HXipV3fcPRdFnUpaFSlmUucZXUljDkv0U+5fN+CXFGC8DBd8bHjxo0jjSkQo+TlSZMiySLaqSjcFJBnueFkNHbD2WbF2vC6Fy4tO8vK1X1Sagv8AYdUX17vE7xcNNMWj7A0PTlDsOjZU+2v1nHtS/wBTZXukcuzjtZ3r9iw9G49rJc/uT7n0QAKUXcAAAAAAAAA9ZurTlrG2dT0pxT+l2tSis+cotL8WdEJwnTqSp1IOE4tqUX3prvR/QI6Y8bdFlonE/Wbf3XYpV630qjhcnGp8Tx6Scl8i0dGpqc+Jee8qnSiHsMlTluPjF6GmpGpItpT7IaDReDMAWQ0EisG4JIs81DUNQt/+Hvrqil/h1pR/gyrjU9TuFi41G8rLyqV5SX4s/PhDBGynGidt1VZOW+YKSDRJFkY5m4KwMICycGNF4GCCbISNwVg3AFkYGC8IzAFkYNwVgYAsjAwXgYAshroY0W0MEiyY/C8rv8z9lLVtWpLs0dUvqUfKFxOK/Bn5cDBCoi8UCOVOCnluL29uV/Wby5r/APNqyl/FngWTcGpIIiJwCuviYMG4NwSRZODMF4GALIwCsDAJsnAwVg3AFk4KwMG4IFktGNFswEWQC8GYJFkYKi5RkpRbTXc0UkMAWfphq+sU1ilqt/TXlC5nFfgzwXF3eXLzc3Vev/zKjl/EhoYIRrU3oh9K9VSrJWTUiuyMEnzZOBgvAwBZGOhjLwS0BZ7bY+kfl3eGkaPhuN3d06c/2M5l/pTO9UEoxUYrCSwl5HVv2WNEhqG/q+qVYdqGmWzlD/mVPhX+ntnaUpfSOfbyGxp/ynqv6ovHRmDZx3Sr/wBL6J+7AAK6WQAAAAAAAAAHAXta6DVnT0jctKGYU+1Z12u9ZzOHyz2/vRz6fNcTtvR3RsbU9I/vqlFzoPyqx+KH4pL0bM7Tcn4bJZIvDn4KYGqY3xOK+NONbvFN50mNwVKMoScZJqSeGn4MJHSDl1k4GC8dBjoCbPG0bgvsmYAsnDGC8BoCyMMYLx0GARZGBgvBjXQE2TgYKwbgCyMG4Kx0GARZGDMF4GATZBuDcG4AsjAwXgzHLuAsnBqRWOgwCLJwY0WMAWRgYKx0GATZODcG4Nx0BFk4GCsDAJsjBuCsDHQCyVE3BfyGOgIs8eDcFYGALIaMwXgYAsnAwXgzHQE2TgYKwbgCyMDBWOgwCLJSNwUl0Nx0AsjAaLwZgCzxtGYLa6H79uaTc65r1jo9pHNa7rxpR6ZfNvoll/IhzkaiqvAlqK5UanFTsz7Mmgx0rh5HUZ0uzcapWlXcmubpr4YL05Sf7xyofm0uzo6dplrp9vFRo21GFKml4Rikl+CP0nMsudciZ0q81OrYeOmPAyJOSAAGOZIAAAAAAAAAAAB1H4+7Ze3uIV3UpUuxZ6j/AFug0vhzJ/GvlLLx5NHH6R2u9oba39IdjVL23puV7pebin2Vlyhj85H7ufrFHVJHQdHy/icZt8W7lOZ65hri5bq+V29Pz6gzBSGDaGnskFYHZJJskFNDBAskFYMJIszASKwbgCyMGMtmYAsk0rBmALJGCsDAJsjBuCsGgiyMDBWBgCzMIYRuBgEWTgYLwZgCycG4NwMZBNk4GCkhgCzDPEoICzMDCKxgAWTg0M0CyWDWhgCzDCsDAFkmpG4wALMGDcGpAWSkbgrBjQFk4QwabgCzBg3BgFktHNHss7ZV7r93uavBulYQ9zQyuTqzXN/KP+9HDlClUr16dClFzqVJKEIrvk28JHc/hntqG09mWGj/AAutCHbuJRXKVWXOT+/kuiRpNey+pxthOLt3lz9jf9HMP4jK6xeDN/ny9/I+lABRDooAAAAAAAAAADAAAAMlFTi4ySaaw0dPeMO03tHet1Z0oS+g3H5+0k1hdiT+r+68r0Sfidwz4Hjls97t2bP6LBy1Gwbr2qiuc+XxQ/eS+9RNvo2b8LkU75Xbl/Cmk17T/jMZVanabvT8odSEjcDDXJpprvTKwX85nZODUjUjcECyWkZhF4GOpIsjs9B2S8G46gWR2Q1y7i8DHUCzx4GC8GYAsnAx0KwMAWRjoMF4DQFkdkYLx6jAFkYDRWBgCzEhjoVgYAshoJFYGALJwMFYGALJwMdCkbgCyMDC8i8DAFk4MwVg3HqBZHZNwVgYAsnAx0LwMAWRjzGOhWBgCyWjMdDyYMx1Asns9BjoUGgLJwMdCkhgEWTgYKwATZOOhLRb7jz6fZXOo39Cxs6Tq3FxUjTpQX2pN4SIVaS1CWq0hyd7Nu0XrW6nr13SjKx0ppw7X267+r/lXxevZOzx8/w921bbS2pZ6NQUJTpx7VepFY97Vf1pfyXRI+gOd6pm/F5CvTgm5PD9nU9HwPgsVGL8y718f0AAa42gAAAAAAQAAAAAAAAAAAOsPtD7Iegbh/LthRxpupTbmo91Kt3yXpLm18/I4tid3N2aFY7k0C60bUKalRuIYTxzhL7Ml1TwzpzuzQb/AG1uC60bUYYrUJYUksRqRfdOPRovOh6h8RF1T17TfVDnHSPTFxJuuYnYd6L/AHgeqwbgIr5G8K3tE4aGGVgJAWZhmYLaZmALJeQVgzAFk4GCvkEBZOGMF4GALIaDTLwMMCzx4GC8DDAsg3BWBgCycDBWBgCyTMFYZuALIwZg8mDGmSLIwaisMJAWZgzHiXhhogWTgJG4NwSLJwbg00CyMG4NaNIFkYGC8BoCycGYLwMAWRgYKx0GALJwbgrAwBZODGi2SySNoho539mbZbcp7y1Cly+KlYRlH5Tqfxiv3jjThftC43lumjp0VKNnTxUvKseXYp58Or7l9/gzt9p9pbWFjQsrSlGjb0Kap04RXKMUsJFc1/UOqZ8Oxd68fon7+xbOjGmddJ8VInZbw+q/r7nnABTDoAAAAAAAAAAAAAAAAAAAA+YABx5xt2FDd+hfS7GnFaxZRboSzj3sO9036968n6s5DB7Y878eRJGLvQx8rGjyonRSJaKdFJ0506sqdSEoTg3GUZLDTXemgc+cf+HXvo1t26JQzViu1f0ILnNf4qXn59OfnngXB0TCzGZkSSM807lOTalgSYE6xSeS96GYNwaaZhgWTgxo8ngZggWRgYKwbgE7RDRnZLaGANozAwVgYBFktGYKwCRZOBg0ECzMGY5lgCycGNF45GYJFk4GCmhgCycBorAwQLIUTcdS8DkSLJ7PUYKGALI7ISLwYBZmBjqWkgBZGB2SsGkCyMDBWEaSLIa6mYLwhggWTgYN5G4AszHUzBeDGiRZDR+nSdOvNV1K306woSr3VxNU6cI+Lf8ABdTwxjKUlGMXKUnhJLLbOy3Azh0ttWK1zVqK/LFzD4YSS/q0H9n9p+P3eecDUM9mFFtrxXgnebPSdNk1GdGN3NTivcnv3H1PDLZ1nszbdPT6PZqXdTFS7r451J4/2ruS/wCrPqQDnksr5Xq962qnWIIWQRpHGlIgAB5nqAAAAAAAh4gAAAAAAAAAAGGgAAAAxpNNNJp9510448NJaLXq7i0Kg3plR9q4oQX/AA0n9pfqN/d6d3YwitSp1qU6VaEalOacZRkk00+9NPvM3AzpMOXbbw5p3mt1TTItQh6t+5eS9y/3idG0bg5W4ycL6m36lXW9CpTq6TJ9qrRWXK2fn+x/Dx8zivB0HGyo8mNJI13HKM3DlwpVilSlT1+qEgvBmD3MSyQVgYBNkjBeBgCyDSsDAIsgMtxMwBZDQwWkbgCzxgtxGATZIKwMAWRgF4GALIBeAkBZOA0XgxoCyEjSsBICycGYPJgNAWeMF4GALJ8RgtI3AI2jx4BeBgDaIBbQwBZGAXgzAG0SYynjxZzfwU4VucqG5NzW+IrFS0s5rv8AFTmvLyj835GNmZkeJH1kn8d5m6dgTahMkUSeK8kT6n6OA/DSVv7ndW4LfFZrt2NtNfUXhUkn4+S8O/vxjm4A57mZkmXKsj//AIdZ0/AiwIUij81717wADFM4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAmpCFWnKnUhGcJJqUZLKafgzgLi9wnnYSra7tehKpac517KCzKl5ygvGPTw8OXdz+GZmFnS4cm2zzTvNdqWmQahF1cqb+S80OjoOw3FbhJQ1eVXWds06dtfv4qtr9WnXfi14Rl+D6d51/vbW5srqpa3dCpb16UuzOnUi4yi+qZfMLPizGbTF3805ocr1PS8jTpNmVN3JeS/3uPDg3ARRmmtsnAwWMAbRGBgoYA2icDBWBgCycDBQAsnAwUMAWRhm4Nx0NAsnAwUMdALIwbgrHQY6AWThjBQBFkY5jDLwEgTtE4GCjUgRtENGYLwMAmyUjcGo3AFk4GDWARZmDCmYSLMEITqTjThFznJ4jGKy2/JI/Zo+mX+sajS0/TbWpdXNV4hTgsv1fkur5I7F8KuF1ltiNPVNV93eaw0mn3wt35Q83+t92PHX5+oxYTLdvXkhttK0ifUpKZuanFeSe6/Q9Bwe4TKzlR1/dFFSuOU7ayksqn5Sn5y/V8PHn3c0gFDy8yXLk25F/R1TT9PhwIkihTxXmviAAYpnAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAGAGgAAHyXELYOi7xtW7mmre/hHFG7px+OPkpfpR6P5YPrQekUz4Xo+NaVDxyMeLIjWOVtop1C3rsrXdo3rpanbuVvKTVG6prNOp8/B9HzPncYO7F/Z2l/aVLS9t6VzQqLE6dSKlGS9GcJ8QeC1Sm6l/tKbnBLtOxqy+L9yT7/SX3+Bb9P1+OWmT9le/l+jnmrdFJYLkxe03u5p7/c4TRqXU89/Z3Vhd1LO9t6tvcUnidOrFxlF9Uzw5LElKloU5bRaXiMGYKNBFk4BvyNwSLIwbgpLoPkQLJx1MwX8gvQCycGYLx0GALI7JuC8dAkBZGDcFYGF5AiyGgolNdDfkSTZDRmDyYGCCLIwMF46DHQkWRgYPITjoBtEY6mpdSsdDCCdolmYLP06VpmoavfQstMs613cz+rTpRy8efRdWFVGpaktRzlRrUtVPxM+s4f8AD/Xd4XCla0/ounxlipeVV8K81FfafRfNo5O4fcFre393f7snC5q4Uo2VN/BF/ry+16Ll1ZzFb0aNtRhQt6UKVKCxCEIqMYrySXcVvUOkDI7Zj717+Xl3/YumkdE5JalzOyn/AOea+Pd9/A9BsfZui7R09W+mUO1WnFe+uanOpVa834LouR9GAVGSV8rle9bVToMMMcDEjjSkTkgAB8HqAB4gAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAADxAAAAAAAAAAAPRbt2joO6LT3Gr2MKk0vgrR+GrD0kufy7uhwjvXg1relOpdaFU/KtouapYxXivTul8ufQ7Fg2GHqeRibmLady8DT6loeJqCXI2nd6bl/fmdJ69Ctb150LilOlVg8ThOLjKL8mmRg7f7n2lt/clNx1bTaNap2ezGsl2akfSS5/LuOI92cEL6hmttu/jdw/wAC5ahNeklyfzwWnE1/Hm3SdlfT+fcoeodEs3Gt0Pbb9OP8exw6jT2GtaHrGiXEqGrabc2c08fnabUX6S7n8mz1xu2ua9LatoVd7Xxu2XpS/U03BmTcn0fFmA0AWYhgoYIFkgrBjRIswFIAWTg3kaZzAsA0YBFmYDRrZmQLMMNZ7Xb22de1+vGlpGl3FznvqKOKcfWb+FfefL3tYm05aQ+443yuRkaKqryQ9Tk8tla3N7dQtbO3q3FefKNOlByk/kjmTanA6pOMa+5dS93z/wCHtObx1m1/BfM5b27tvQ9vW/udI02haprEpRjmcv2pPm/mzR5fSDHi3RdpfQten9EczIp0/Yb/ACv8e/8ABwpsrgrqd7Kndbkr/QLdrP0em1KtLo33R/F+hzXtrbujbcslaaPYUraGPiklmc+spPm36ntgVbM1LIy1/wAi7u5OBfNO0XE09P8AE3td671/XkAAYBtgAAAAAAAAAAAAAAAAAAAAAAPEAAAAAAAAAAAAAAAADwAAAAAAAAAAAAAAAAAPFdW9vd0J0LmhTr0prE4VIqUZeqZ8JuHhHs/VYylb2lTTKz7p2ksR/wArzH7kjkAHvDkzQLcblQxcnCx8pNmZiO8UOv2v8D9btsz0fUbW+j+hVTpT/mn96Ph9Z2TuvR05X2hXsaa76lOn7yH+aOUduRyNxD0iyWbnojvRf75FbyuhmDLviVWL/Keu/wBTpPKMoycZJprvTQwdyNS0PRtSi46hpVldJ/4tCMn97R8xf8KtkXcm/wAkfR2/8CtOH4Zx+Bs4+kkK/OxU8N/saKfoRkt/1SIvjae51eNSOwd/wP23Vy7PUtStn4dqUKiXy7Kf4nprjgRJN/R9x5Xh7y0/6TMxmu4TuLq8lNbJ0T1RnBiL4Kn5o4WMZy/U4F6sv7PXrGX7VGa/6nhfAzXs8tY0x+qqf9p6prGEv/p9zGXo3qif+K/ynucTA5ZXAzXvHWNMXyqf9p5qfArVX/aa9ZR/Zoyf/QLrGEn/AKfcJ0b1Nf8AxX+U9ziAI5qtuBD7S+k7kePFU7T+bke7sOCG2aOHd3+p3T8u3CC/COfxPJ+u4TeDr8lMmPonqb+LETxVPxZ16NpxlUl2YRlOT7lFZZ2j0/hfsizkpLRaddrxr1JVPwbx+B9Np+laZp9NQsNOtLWK7lRoxh/BGFL0liT/AFsVfHd7myg6D5Lv9sqJ4WvsdWtG2Fu/VoxnaaFdxpy7qlePuo/6sZ+R9voPA3VK2Kmtatb2sfGnbxdSX3vCX4nPfd3A1k3SHKfuZTf79TfYvQ3Ai3yKr1+q0np7nw+3uFeztIUJS078oVo8/eXkvec/2eUfwPtaVOnSpxp0oRhCKxGMVhJeSRYNPNkSzLcjlXxLJjYcGK3ZhYjU+iABg8TJAAAAAAAAAAAAAAAAAAAAADAAAAAACAAAAAAAAAAAAAAAAAAHgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD5gAAAAAAAAAAAAAAAAADmAAAAAAAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAeAAAAAAAAAAAAGAAAAAAOYAAHgAAAAAAAD/2Q==" alt="マイフル" style="width:100%;height:100%;object-fit:contain"></div>
+        <div>
+          <div class="product-name">睡眠改善講座「マイフル」</div>
+          <div class="product-price">109,780円（税込）</div>
+          <div class="product-copy">1万人の眠りを変えた関根式メソッド。<br>オンライン完結・買い切りでいつでも視聴・実践可能。</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 提供商品詳細 -->
+    <p style="font-size:18px;font-weight:700;margin-bottom:14px">更に、本商品には以下の内容が含まれます。</p>
+
+    <div class="box">
+      <div class="box-ttl">提供商品詳細</div>
+
+      <div class="detail-item">
+        <div class="acc-left" style="margin-bottom:10px">
+          <div class="ch-badge" style="width:64px;height:26px;font-size:11px;letter-spacing:.04em">会員サイト</div>
+          <div>
+            <div class="acc-ttl">オンライン動画講座　全7章</div>
+          </div>
+        </div>
+        <div class="detail-desc">睡眠改善・自律神経・腸内環境・マインドフルネス・疲労回復・習慣化・仕事パフォーマンスを体系的に学べる完全網羅プログラム。いつでも・何度でも視聴可能。</div>
+      </div>
+
+      <!-- カリキュラム詳細 -->
+
+      <div class="acc-item" id="a1">
+        <div class="acc-hd" onclick="tog('a1')">
+          <div class="acc-left"><div class="ch-badge">第1章</div><div><div class="acc-ttl">睡眠改善の全体像</div><div class="acc-st">睡眠の仕組み・悩みの正体・習慣化の土台</div></div></div>
+          <div class="acc-arr">▾</div>
+        </div>
+        <div class="acc-bd"><div class="acc-in">
+          <div class="sec-ttl">睡眠はカラダの「総合成績表」</div>
+          <ul class="tl">
+            <li>なぜ、睡眠はカラダの総合成績表なのか？</li>
+            <li>誰も教えてくれない「正しい眠りの仕組み」とは？</li>
+            <li>人生の3分の1を費やす眠りが人生の質を決める理由</li>
+            <li>小さなストレスを抱える人に共通する不調とは？</li>
+            <li>食欲が止まらない…その原因が睡眠不足にある理由</li>
+            <li>「年齢・体質のせい」と諦めていた人がぐっすり眠れるようになった仕組み</li>
+          </ul>
+          <div class="sec-ttl">眠れない「悩み」の正体</div>
+          <ul class="tl">
+            <li>アロマ・サプリ・高級寝具…何をしても効果が出ない根本原因</li>
+            <li>眠ろうと頑張るほど眠れなくなる逆転現象の神経学的理由</li>
+            <li>寝ても寝ても疲れが取れない理由（睡眠量では解決できない）</li>
+            <li>細胞修復・疲労回復・肌再生が集中するタイミングに深い眠りをとる方法</li>
+            <li>朝起きた瞬間から疲労を感じる「疲労」の正体</li>
+            <li>十分眠っているのに昼間しんどい人の共通点</li>
+          </ul>
+          <div class="sec-ttl">やる気に頼らず続けられる習慣化</div>
+          <ul class="tl">
+            <li>やる気ゼロでも自然と続く習慣の仕組み</li>
+            <li>習慣が「続く人」と「続かない人」の決定的な違い</li>
+            <li>無理せず続く、習慣化しやすい設定の方法</li>
+          </ul>
+        </div></div>
+      </div>
+
+      <div class="acc-item" id="a2">
+        <div class="acc-hd" onclick="tog('a2')">
+          <div class="acc-left"><div class="ch-badge">第2章</div><div><div class="acc-ttl">自律神経を自在にコントロールして眠れる体へ</div><div class="acc-st">戦闘モードと休息モードの切り替えを習得</div></div></div>
+          <div class="acc-arr">▾</div>
+        </div>
+        <div class="acc-bd"><div class="acc-in">
+          <div class="sec-ttl">自律神経が暴走中？今あなたの体で起きていること</div>
+          <ul class="tl">
+            <li>疲れているのに眠れないのはなぜか？</li>
+            <li>「眠ろう」と頑張るほど脳が覚醒する仕組みを徹底解説</li>
+            <li>なぜ朝起きた瞬間から頭にモヤがかかるのか</li>
+            <li>スッキリ・爽快な目覚めのために今日からできること</li>
+            <li>夜中3時に目が覚める原因と対策（朝までぐっすり）</li>
+            <li>糖尿病・高血圧・心疾患の原因となりうる睡眠時の脳波とは？</li>
+            <li>起きた瞬間から感じる「疲労感」の原因</li>
+          </ul>
+          <div class="sec-ttl">戦闘モードと休息モードの切り替え 実践編</div>
+          <ul class="tl">
+            <li>ぐっすり眠れる体の条件とは？</li>
+            <li>眠れない本当の原因を知り、睡眠の質改善アクションステップ</li>
+            <li>「ストレスの正体」を正しく理解する</li>
+            <li>睡眠の質はその日の朝に決まる — セロトニンの15時間ルール</li>
+            <li>鼻呼吸と口呼吸で自律神経への影響が変わる科学的理由</li>
+            <li>一気に深い眠りに入るための3つの条件</li>
+            <li>スマホを寝る直前まで見ていてもぐっすり眠れる方法</li>
+            <li>睡眠の質を決める黄金の90分ルール</li>
+            <li>夜、自然と眠気がやってくる「朝のルーティン」完全公開</li>
+          </ul>
+        </div></div>
+      </div>
+
+      <div class="acc-item" id="a3">
+        <div class="acc-hd" onclick="tog('a3')">
+          <div class="acc-left"><div class="ch-badge">第3章</div><div><div class="acc-ttl">睡眠の質を左右する腸内環境を改善しよう</div><div class="acc-st">腸×睡眠の最新科学と実践食事術</div></div></div>
+          <div class="acc-arr">▾</div>
+        </div>
+        <div class="acc-bd"><div class="acc-in">
+          <div class="sec-ttl">なぜ睡眠の質と腸内環境が密接に関係するのか？</div>
+          <ul class="tl">
+            <li>腸内環境が乱れると眠れなくなる仕組みを徹底解説</li>
+            <li>眠れない人の腸の共通点とは？</li>
+            <li>セロトニン・血糖値・ミトコンドリアと睡眠の質の関係性</li>
+            <li>明日の食事から変えられる、腸が喜ぶシンプルな選択</li>
+            <li>「眠れない→腸内環境の乱れ→もっと眠れない」の連鎖を止める方法</li>
+          </ul>
+          <div class="sec-ttl">腸が喜ぶ食事 実践編</div>
+          <ul class="tl">
+            <li>血糖スパイクが睡眠の質を下げるメカニズム</li>
+            <li>1日2リットルで合ってる？水分摂取の正解</li>
+            <li>食品添加物との現実的な付き合い方</li>
+            <li>腸が本当に喜ぶ食物繊維の正体と食べ方の条件</li>
+            <li>食べるタイミングをずらすだけで睡眠の質が変わる理由</li>
+            <li>カフェインはいつ飲むと悪者になるのか？</li>
+            <li>慢性的な便秘・下痢の人の睡眠の質が悪い「本当の理由」</li>
+            <li>噛む回数が「腸内細菌の多様性」に直結する理由</li>
+          </ul>
+        </div></div>
+      </div>
+
+      <div class="acc-item" id="a4">
+        <div class="acc-hd" onclick="tog('a4')">
+          <div class="acc-left"><div class="ch-badge">第4章</div><div><div class="acc-ttl">ぐっすり眠れる脳の作り方</div><div class="acc-st">環境・マインドフルネス・人間関係ストレスの解消</div></div></div>
+          <div class="acc-arr">▾</div>
+        </div>
+        <div class="acc-bd"><div class="acc-in">
+          <div class="sec-ttl">頭のモヤモヤ、心のイライラをスッキリさせるには？</div>
+          <ul class="tl">
+            <li>睡眠の質を最大化する「寝室の3つの要素」</li>
+            <li>呼吸のリズムを変えるだけで怒り・緊張・抑うつが低下する科学的根拠</li>
+            <li>後悔と不安で頭がいっぱいの時に3分で「今、ここ」に戻るスキル</li>
+            <li>「ボディスキャン」でぐっすり眠れる脳を作る方法</li>
+            <li>睡眠不足の翌日にイライラが止まらない理由</li>
+            <li>感情・人間関係のストレスを翌朝に持ち越さない技術</li>
+            <li>「無音」vs「自然音」脳波が示す正解とは？</li>
+          </ul>
+          <div class="sec-ttl">マインドフルネス 実践編</div>
+          <ul class="tl">
+            <li>1日の判断疲れを翌朝に持ち越さないための技術</li>
+            <li>ぐるぐる思考を止める「マインドフルネス」全手順</li>
+            <li>SNS・動画・ニュース…情報過多の脳を鎮める方法</li>
+            <li>関根式「マインドフルリスニング」の実践手順を完全公開</li>
+            <li>ネガティブ感情をゼロにしようとすることが眠れない脳を作る理由</li>
+            <li>脳に優しいスマホ・パソコンとの付き合い方</li>
+          </ul>
+        </div></div>
+      </div>
+
+      <div class="acc-item" id="a5">
+        <div class="acc-hd" onclick="tog('a5')">
+          <div class="acc-left"><div class="ch-badge">第5章</div><div><div class="acc-ttl">「疲れ」の正体を知ってらくらく体調管理</div><div class="acc-st">4大疲労を解消し、体のコンディションを整える</div></div></div>
+          <div class="acc-arr">▾</div>
+        </div>
+        <div class="acc-bd"><div class="acc-in">
+          <div class="sec-ttl">なぜ疲れているのに眠れないのか？</div>
+          <ul class="tl">
+            <li>睡眠だけがアプローチできる4大疲労の正体</li>
+            <li>体を動かしていないのに疲れる仕組みと解決策を完全網羅</li>
+            <li>寝起きの瞬間から疲れを感じている人の体に起きている異常事態のサイン</li>
+            <li>自律神経のバランスを左右する体の「柔軟性」（副交感神経が働きやすい人の共通点）</li>
+            <li>睡眠中に体の疲れが抜けない「隠れた理由」</li>
+            <li>目の疲れが自律神経に影響を与える科学的根拠</li>
+          </ul>
+          <div class="sec-ttl">今日から一人でできる自己管理法</div>
+          <ul class="tl">
+            <li>マッサージに頼らず首・肩・腰のこりをリセットする睡眠前の秘習慣</li>
+            <li>目薬いらず！本当に体感できる「目」の疲労回復法</li>
+            <li>オリンピックアスリートも実践する可動域改善ストレッチの正しい順番</li>
+            <li>「姿勢を正す＝背筋を伸ばす」が逆に体を痛める理由と正しい姿勢リセット法</li>
+            <li>自分でできる筋膜リリースノウハウ公開（翌朝の体の動きが劇的に変わる）</li>
+            <li>デスクワークをしながら睡眠の質を変えるエクササイズ（座ったままでOK）</li>
+            <li>マッサージの翌日に体が固まる原因と一人でできる根本アプローチ</li>
+          </ul>
+        </div></div>
+      </div>
+
+      <div class="acc-item" id="a6">
+        <div class="acc-hd" onclick="tog('a6')">
+          <div class="acc-left"><div class="ch-badge">第6章</div><div><div class="acc-ttl">自分専用の睡眠習慣を作ろう！</div><div class="acc-st">朝〜夜のルーティン設計と習慣化の仕組み</div></div></div>
+          <div class="acc-arr">▾</div>
+        </div>
+        <div class="acc-bd"><div class="acc-in">
+          <div class="sec-ttl">睡眠のストレスをゼロにする習慣を作る</div>
+          <ul class="tl">
+            <li>睡眠改善ノウハウを自分の生活習慣に合わせて無理なく取り入れる方法</li>
+            <li>朝一番の行動がその日の睡眠の質を決める理由と絶対に避けるべきアクション</li>
+            <li>昼食後の眠気を最小限に抑える簡単な方法</li>
+            <li>夜の眠気に影響しない「正しい昼寝」とは？</li>
+            <li>脳の条件反射を利用して眠気を誘う入眠儀式</li>
+            <li>仕事モードを強制終了させるスイッチの作り方</li>
+            <li>月曜日の朝がしんどい…ソーシャルジェットラグの解消方法</li>
+          </ul>
+          <div class="sec-ttl">モチベーション要らずの習慣化ノウハウ</div>
+          <ul class="tl">
+            <li>モチベーションに頼るのがキケンな理由</li>
+            <li>1万人の睡眠を改善したやる気要らずの習慣化ノウハウ</li>
+            <li>三日坊主にならない仕組み（脱落者ゼロを目指す）</li>
+            <li>なぜマイフルに参加すると気づかない間に習慣化するのか？</li>
+            <li>「睡眠見える化シート」の記録項目＆使い方完全解説</li>
+          </ul>
+        </div></div>
+      </div>
+
+      <div class="acc-item" id="a7">
+        <div class="acc-hd" onclick="tog('a7')">
+          <div class="acc-left"><div class="ch-badge">第7章</div><div><div class="acc-ttl">上場企業も導入！睡眠改善と仕事の生産性向上を同時達成</div><div class="acc-st">睡眠が組織とキャリアを変える</div></div></div>
+          <div class="acc-arr">▾</div>
+        </div>
+        <div class="acc-bd"><div class="acc-in">
+          <div class="sec-ttl">睡眠の質が仕事のパフォーマンスへ与える影響</div>
+          <ul class="tl">
+            <li>なぜお医者さんもマイフルへ参加しているのか？</li>
+            <li>質の高い仕事に「良い休息」が必要な理由</li>
+            <li>睡眠負債が脳の判断力を錯覚させる危険性</li>
+            <li>睡眠不足で脳のある部位が暴走モードになる理由</li>
+            <li>三井住友信託銀行・MetLife生命・ネッツトヨタ愛媛が「睡眠改善研修」を導入した理由</li>
+            <li>睡眠の質に投資した職場はなぜ離職率が低く幸福度が高いのか？</li>
+          </ul>
+          <div class="sec-ttl">仕事中の集中力と成果を最大化する方法</div>
+          <ul class="tl">
+            <li>関根式「集中力を高める手順」（同時に睡眠の質が改善）</li>
+            <li>無気力な状態からたった3分で120%やる気が高まる「脳のウォームアップ」</li>
+            <li>やる気と集中力が維持できる「正しい休憩の取り方」</li>
+            <li>会議中の発言の質と量が変わる「会議5分前の脳リセット」</li>
+            <li>重要な交渉・プレゼン・商談の前日にぐっすり眠れる準備法</li>
+            <li>睡眠を改善するだけでなぜ職場の人間関係が良好になるのか？</li>
+            <li>上場企業の経営幹部が睡眠改善ノウハウをチームにも広めた理由</li>
+          </ul>
+        </div></div>
+      </div>
+
+
+      <div class="period">サービス提供期間　動画コンテンツ：無期限 / メールサポート：30日間</div>
+
+    </div>
+
+    <!-- 特典 -->
+    <div class="box">
+      <div class="box-ttl">購入者特典</div>
+
+      <div class="detail-item">
+        <div class="detail-tag tg">特典① 通常¥5,500/月 → 30日間無料</div>
+        <div class="detail-name">Zoom実践会 30日間無料参加権</div>
+        <div class="detail-desc">平日・日曜 朝9時・夜23時に開催するストレッチと呼吸法のZoom実践会に30日間無料で参加できます。習慣化できる環境をしっかり用意します。</div>
+      </div>
+
+      <div class="detail-item">
+        <div class="detail-tag tg">特典②</div>
+        <div class="detail-name">「腸活」完全解説 — 慶應義塾大学 菅沼教授 動画講義</div>
+        <div class="detail-desc">通常は聞けない腸内環境の専門家による希少性の高い動画講義。腸内環境チェックリスト（知る）／腸活ファスティングノウハウ（整える）／眠れる腸活食材リスト（維持する）をセットで提供。</div>
+      </div>
+
+      <div class="detail-item">
+        <div class="detail-tag tg">特典③</div>
+        <div class="detail-name">最高の睡眠「習慣化の手順」1日の行動マニュアル</div>
+        <div class="detail-desc">朝・昼・夜のルーティンマニュアルで習慣化を徹底サポート。何をすればいいか迷わない、自分専用のデイリーガイド。</div>
+      </div>
+
+      <div class="detail-item">
+        <div class="detail-tag tg">特典④</div>
+        <div class="detail-name">睡眠見える化シート</div>
+        <div class="detail-desc">睡眠記録（時間・覚醒回数・起床時疲労度）と日中パフォーマンス記録（集中度・気分・生産性）を管理できるスプレッドシート。定期振り返りと気づきの記入で改善サイクルを確立します。</div>
+      </div>
+
+      <div class="detail-item">
+        <div class="detail-tag tg">特典⑤</div>
+        <div class="detail-name">マイフル限定イベント 優先ご招待（オンライン＆リアル開催）</div>
+        <div class="detail-desc">睡眠改善体験会・経営者/起業家を招いたイベント・オフ会・リアルな交流の場に優先でご招待。（実費・参加費は別途）</div>
+      </div>
+
+      <div class="detail-item">
+        <div class="detail-tag tg">特典⑥</div>
+        <div class="detail-name">30日間お悩み相談し放題（メール or オンライン1回）</div>
+        <div class="detail-desc">枕・体調管理など個別のお悩みをメールで相談し放題。オンライン面談1回も含まれます。今の状況や悩みについて何でも聞けます。</div>
+      </div>
+
+      <div class="detail-item">
+        <div class="detail-tag tg">特典⑦</div>
+        <div class="detail-name">寝具・健康機器・サプリ メンバー限定割引権</div>
+        <div class="detail-desc">今後開発・提携する寝具・機器類・サプリをメンバー限定価格で購入可能。枕20〜30%OFF・機器類最大50%OFF・サプリ20%OFFを目標に還元します。</div>
+      </div>
+
+      <div class="detail-item">
+        <div class="detail-tag tg">特典⑧</div>
+        <div class="detail-name">おすすめ検査ガイド</div>
+        <div class="detail-desc">腸内細菌検査（善玉菌を増やす食事内容の把握）・遺伝子検査（食事・代謝の個別最適化）・血液検査（不足栄養素の特定）の活用ガイドを提供します。</div>
+      </div>
+
+    </div>
+
+    <!-- 支払方法 -->
+    <div class="box">
+      <div class="box-ttl">支払方法</div>
+      <div class="pay-in">
+        <div class="pay-ttl">▶クレジットカード</div>
+        <div class="card-row">
+          <div class="card">VISA</div>
+          <div class="card">Mastercard</div>
+          <div class="card">JCB</div>
+          <div class="card">Diners</div>
+          <div class="card">AMEX</div>
+        </div>
+        <hr class="ph">
+        <div class="pay-ttl">▶銀行振込</div>
+      </div>
+    </div>
+
+    <!-- 安全のための取り組み -->
+    <div class="sec-sec">
+      <h3 class="sec-h">安全のための取り組み</h3>
+      <p class="sec-p">注文する商品をご確認いただき、よろしければご注文者情報を入力して、ご希望の決済方法のボタンを押して次にお進みください。<br>お客様情報はSSL暗号化技術を利用して厳重に送信いたします。<br>また、ご入力いただいたカード情報はインフォトップに決済代行を委託しております。当社では保存されませんのでご安心ください。<br>転売など、当社が不都合と判断した場合はご購入をお断りさせていただくことがございます。予めご了承ください。</p>
+      <div class="ssl">🔒 SSL暗号化通信</div>
+    </div>
+
+  </div><!-- /main -->
+
+  <!-- ── SIDE ── -->
+  <div class="side">
+    <div class="side-box">
+      <div class="side-ttl">ご注文者情報</div>
+      <div class="side-body">
+        <div class="side-row">
+          <span>商品価格</span>
+          <span class="s-price">109,780円（税込）</span>
+        </div>
+        <a href="#" class="btn-cr">クレジット決済を希望　›</a>
+        <div class="s-or">または</div>
+        <a href="#" class="btn-bk">銀行振込決済を希望　›</a>
+        <p class="s-note">いずれかの決済方法を選んでボタンを押してください。</p>
+        <p class="s-caut">本商品は、必ずしも購入者様の利益や効果を保証したものではございません。</p>
+      </div>
+    </div>
+  </div>
+
+</div><!-- /wrap -->
+
+<footer>
+  <div class="ft-links">
+    <a href="https://myfull-tokusyouhou.vercel.app/">特定商取引法に基づく表記</a>
+    <a href="https://purapori-myfull.vercel.app/">プライバシーポリシー</a>
+  </div>
+  <p>©2026 株式会社マインドフルネス</p>
+</footer>
+
+<script>
+function tog(id){document.getElementById(id).classList.toggle('open')}
+</script>
+</body>
+</html>
